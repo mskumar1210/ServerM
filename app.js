@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true })); // for form data
 // CORS
 app.use(
   cors({
-    origin: "https://bookingsystem08.netlify.app", // your frontend
+    origin: "https://stellar-syrniki-13ae90.netlify.app/", // your frontend
     credentials: true,
   })
 );
